@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Stock Scanner</string>
+    <string name="product_detected">Product detected:</string>
+    <plurals name="stock_left">
+        <item quantity="zero">No more left in stock</item>
+        <item quantity="one">%d item left in stock</item>
+        <item quantity="other">%d items left in stock</item>
+    </plurals>
+    <string name="title_activity_product_scanned">ProductScanned</string>
+    <string name="camera_status">Camera auto focus is %1$s</string>
+    <string name="fetching_stock_quantity">Fetching stock quantity...</string>
+</resources>

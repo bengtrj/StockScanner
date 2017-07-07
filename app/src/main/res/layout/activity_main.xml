@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.stockscanner.pivotal.pivotalstockscanner.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/cameraPlaceholder"
+        android:layout_width="match_parent"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_height="200dp">
+
+    </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@android:drawable/dialog_holo_light_frame">
+
+            <TextView
+                android:id="@+id/scanExplanation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Scan your product bar code to consume a product"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/cameraStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/camera_status"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+        </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
